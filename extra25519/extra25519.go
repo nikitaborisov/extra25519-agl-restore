@@ -7,7 +7,7 @@ package extra25519
 import (
 	"crypto/sha512"
 
-  "tmp/edwards25519"
+  "github.com/nikitaborisov/extra25519-agl-restore/edwards25519"
 )
 
 // PrivateKeyToCurve25519 converts an ed25519 private key into a corresponding
